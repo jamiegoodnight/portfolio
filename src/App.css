@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  width: 51px;
+}
+
+a:hover {
+  color: black;
+}
+
+.nav-wrapper {
+  padding-top: 6%;
+  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.one {
+  width: 40%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-one {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/keyconsfront.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: transform 0.2s;
+}
+
+.two {
+  width: 60%;
+  height: 600px;
+}
+
+.item-two {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/aboutme.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+/* .three {
+  width: 50%;
+  height: 600px;
+}
+
+.item-three {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/guidr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: transform 0.2s;
+} */
+
+.four {
+  width: 33%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-four {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/usemytech.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+.five {
+  width: 33%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-five {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/darkmode.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+.six {
+  width: 70%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-six {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/guidr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: transform 0.2s;
+}
+
+/* .six {
+  width: 100%;
+  height: 600px;
+}
+
+.item-six {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/keyconsback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  transition: transform 0.2s;
+} */
+
+.eight {
+  width: 100%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-eight {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/keyconsback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  transition: transform 0.2s;
+}
+
+.test {
+  width: 100%;
+  height: 600px;
+}
+
+.test-2 {
+  width: 50%;
+  height: 600px;
+}
+
+.vid {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: black;
+}
+
+.fab {
+  margin-top: 3px;
+  font-size: 60px;
+  color: white;
+  transition: 0.5s;
+}
+
+.fas {
+  font-size: 54px;
+  color: white;
+  transition: 0.5s;
+}
+
+.fa-github-square:hover {
+  color: #24292e;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
